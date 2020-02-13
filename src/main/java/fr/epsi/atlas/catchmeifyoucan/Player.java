@@ -7,6 +7,10 @@ public class Player {
 	private int coordX;
 	private int coordY;
 	private int orientation;
+	
+	public Player() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public void moveX(int i) throws NumberCaseException {
 		if (i == 0 || i >= 3) {
